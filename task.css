@@ -1,0 +1,128 @@
+/* header */
+#navbarNav{
+    justify-content: end;
+    color: #fff;
+    
+}
+
+/* cover image */
+
+body {
+    background-color:  #2B9EB7;
+
+    margin: 0;
+    padding: 20px;
+}
+#wip-background {
+    background-image: url('hands-typing-on-laptop.jpg'); /* cover image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* card setting */
+.card-group{
+    margin: 3%;
+    /* border-radius: 80px !important; */
+   
+
+}
+.card{
+justify-content: space-between;
+padding-right: 10px;
+background: #2B9EB7;
+border:none;
+
+
+}
+.card-body{
+background-color: #FFBC0E;
+border-radius: 0 0 30px 30px;
+
+}
+.card-title{
+    color: white;
+    text-align: center;
+}
+.card-para{
+    color: gray;
+    text-align: center;
+}
+.card-text{
+    color: white;
+    text-align: center;
+}
+
+/* Add additional styles for your heading1 and parghraph  */
+h1, p {
+    color: #0c0a0d; /* Set text color for better visibility on the background */
+}
+/* text-div */
+.text-div{
+    color: #fff;
+    align-items: center;
+    size: 40px;
+}
+/* mail setting */
+.mail-div{
+justify-content: center;
+padding: 40px;
+}
+.sub-button{
+    background-color: #FFBC0E;
+    color: #2B9EB7;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.inputmail{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: #FFBC0E;
+    color: #2B9EB7;
+}
+/* footer design */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 15px;
+    text-align: left;
+}
+
+.footer-column h3  {
+    color: #fff;
+}
+.footer-p{
+    color: #fff;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
